@@ -14,7 +14,9 @@ function hitungkarakter(text) {
     return jumlahkarakter
 }
 
-let coba = "hello";
+let input1 = "hello";
+let hasil = hitungkarakter(input1);
 
-
-// 
+for (let karakter in hasil) {
+    console.log(`${karakter} = ${hasil[karakter]}`)    
+}
