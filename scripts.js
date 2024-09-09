@@ -10,10 +10,13 @@ function hitungkarakter(text) {
       jumlahkarakter[karakter] = 1;
     }
   }
+  console.log(jumlahkarakter)
   return jumlahkarakter;
 }
 
 let input1 = "hello";
+let input2 = "aabbbccd";
+hitungkarakter(input2)
 let hasil = hitungkarakter(input1);
 
 for (let karakter in hasil) {
