@@ -1,1 +1,5 @@
-f
+function hitungkarakter(text) {
+    let 
+}
+
+// 
