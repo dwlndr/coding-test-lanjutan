@@ -5,11 +5,16 @@ function hitungkarakter(text) {
         let karakter = text[i];
 
         if (jumlahkarakter[karakter]) {
-            
+            jumlahkarakter[karakter]++;
+        }else {
+            jumlahkarakter[karakter] = 1;
         }
     }
+
+    return jumlahkarakter
 }
 
-text = "Hello"
-console.log(text.length)
+let coba = "hello";
+
+
 // 
