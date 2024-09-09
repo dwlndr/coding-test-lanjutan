@@ -17,6 +17,10 @@ function hitungkarakter(text) {
 let input1 = "hello";
 let input2 = "aabbbccd";
 hitungkarakter(input2)
+hitungkarakter(input1)
+
+
+
 let hasil = hitungkarakter(input1);
 
 for (let karakter in hasil) {
